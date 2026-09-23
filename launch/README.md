@@ -6,7 +6,7 @@ This folder holds everything needed to bring the four seats up. The headless pat
 
 | Seat | Mandate file | Model (initial) | `--runtime-model` id |
 |---|---|---|---|
-| Architect | [`../mandates/architect.md`](../mandates/architect.md) | Fable 5.1 | `claude-fable-5-1` |
+| Architect | [`../mandates/architect.md`](../mandates/architect.md) | Opus 5 | `claude-opus-5` |
 | Builder | [`../mandates/builder.md`](../mandates/builder.md) | Opus 5 | `claude-opus-5` |
 | Verifier | [`../mandates/verifier.md`](../mandates/verifier.md) | Fable 5.1 | `claude-fable-5-1` |
 | Spec Auditor | [`../mandates/spec-auditor.md`](../mandates/spec-auditor.md) | Sonnet 5 | `claude-sonnet-5` |

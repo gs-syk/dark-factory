@@ -10,7 +10,7 @@ The seat mandates in [`mandates/`](mandates/) are generic. They describe how a s
 
 | Seat | Runtime | Model (initial) | The one job it owns |
 |---|---|---|---|
-| **Architect** | Claude Code | Fable 5.1 | Plan, sequence, integrate, and decide when a milestone is complete |
+| **Architect** | Claude Code | Opus 5 | Plan, sequence, integrate, and decide when a milestone is complete |
 | **Builder** | Claude Code | Opus 5 | Implement one scoped work item at a time |
 | **Verifier** | Claude Code | Fable 5.1 | Independently check the work against the specification |
 | **Spec Auditor** | Claude Code | Sonnet 5 | Prove that every requirement is implemented, checked, and not exceeded |
