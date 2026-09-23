@@ -18,7 +18,7 @@ $StateFile = Join-Path $PSScriptRoot ".factory-state.json"
 $Seats = @(
     @{ Name = "factory-architect";    Session = "factory-architect-spike";    Model = "claude-opus-5";    Mandate = "mandates/architect.md" }
     @{ Name = "factory-builder";      Session = "factory-builder-spike";      Model = "claude-opus-5";    Mandate = "mandates/builder.md" }
-    @{ Name = "factory-verifier";     Session = "factory-verifier-spike";     Model = "claude-fable-5-1"; Mandate = "mandates/verifier.md" }
+    @{ Name = "factory-verifier";     Session = "factory-verifier-spike";     Model = "claude-opus-5";    Mandate = "mandates/verifier.md" }
     @{ Name = "factory-spec-auditor"; Session = "factory-spec-auditor-spike"; Model = "claude-sonnet-5";  Mandate = "mandates/spec-auditor.md" }
 )
 

@@ -8,7 +8,7 @@ This folder holds everything needed to bring the four seats up. The headless pat
 |---|---|---|---|
 | Architect | [`../mandates/architect.md`](../mandates/architect.md) | Opus 5 | `claude-opus-5` |
 | Builder | [`../mandates/builder.md`](../mandates/builder.md) | Opus 5 | `claude-opus-5` |
-| Verifier | [`../mandates/verifier.md`](../mandates/verifier.md) | Fable 5.1 | `claude-fable-5-1` |
+| Verifier | [`../mandates/verifier.md`](../mandates/verifier.md) | Opus 5 | `claude-opus-5` |
 | Spec Auditor | [`../mandates/spec-auditor.md`](../mandates/spec-auditor.md) | Sonnet 5 | `claude-sonnet-5` |
 
 For a headless seat the model is fixed at creation by `--runtime-model`; change it in the `$Seats` table in `launch-headless.ps1`. For a terminal-attached seat, set the model with `/model` inside Claude Code, or start it with the `--model` flag.
